@@ -37,7 +37,6 @@ def make_kpi_row(k):
 app = Dash(__name__)
 app.title = "Dash Dashboard (via API)"
 
-# Fetch once at startup (demo simple). Luego podemos hacerlo reactivo con callbacks.
 kpis = get_json("/kpis")
 main = get_json("/chart/sales_by_day?days=14&status=PAID")
 by_cat = get_json("/chart/revenue_by_category?status=PAID")

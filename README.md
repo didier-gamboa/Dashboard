@@ -117,19 +117,3 @@ Editar la propiedad que señala la URL base de la API para que apunte a `http://
 cd javafx_client
 mvn clean javafx:run
 ```
-
-Si prefiere empaquetar un JAR, puede usar `mvn package` y ejecutar con la JVM adecuada.
-
---------------------
-**Solución de problemas rápida**
-- Si no se conecta el cliente JavaFX a la API: verificar `app.properties` y CORS en la API.
-- Errores al instalar dependencias Python: active el entorno virtual antes de `pip install`.
-- Conflicto de puertos: asegúrese de que `8000` (API) y `8050` (Dash) estén libres o cámbielos.
-
---------------------
-**Notas finales**
-- Esta guía da pasos mínimos para desarrollo y pruebas locales. Para producción considere usar: servir la API con un servidor ASGI en contenedor, configurar TLS, usar un proxy (nginx), y contenerizar servicios con Docker.
-- Si desea, puedo añadir pasos de Docker Compose o CI/CD.
-
----
-Archivo creado automáticamente: instrucciones básicas para despliegue local.
