@@ -1,0 +1,11 @@
+# API dependencies
+fastapi>=0.110
+uvicorn[standard]>=0.27
+
+# Database drivers (puedes desinstalar uno si solo usas una BD)
+mysql-connector-python>=8.0.33    # Para MySQL
+psycopg[binary]>=3.1              # Para PostgreSQL
+
+python-dotenv>=1.0
+pydantic>=2.6
+

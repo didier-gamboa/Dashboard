@@ -1,0 +1,8 @@
+demo/App.class
+demo/models/Client.class
+demo/models/Kpis.class
+demo/views/DashEmbeddedView.class
+demo/models/Series.class
+demo/ApiClient.class
+demo/views/NativeDashboardView.class
+demo/views/DashboardView.class

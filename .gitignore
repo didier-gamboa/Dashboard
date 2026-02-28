@@ -1,0 +1,31 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+*/venv/
+*/.venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Maven/Java
+/target/
+*.log
+
+# Dash/streamlit etc
+*.sqlite3
+
+# IDEs
+.idea/
+.vscode/
+
+# Other
+*.swp
